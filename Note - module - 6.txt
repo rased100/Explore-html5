@@ -1,0 +1,346 @@
+				Milestone - 2 : Responsive web layout
+
+
+
+
+			module: 6-1 HTML5 Audio, video, youtube video, embed iframe
+
+
+Add Audio: 		<audio src="media/Audio/Adiga-Adiga-Ringtones.mp3" controls></audio>
+
+			controls na likhle audio file ta dekhabe na.
+
+
+Add Video		<video src="media/video/y2mate.com - Ei chena sohor  Confusion   Videography_480p.mp4" controls width="250"></video>
+
+
+Add Youtube video	
+			go >> youtube >> share >> embed >> copy >> past		
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/oFyiapE4Da8" title="YouTube video player"
+        		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        		allowfullscreen></iframe>
+
+
+
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-2 HTML5 Semantic tags section article header footer main
+
+
+
+
+Semantic		mening full tag
+			
+			<section> <header> <nav> <article> <footer> tags
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-3 HTML table, table head, table body, table row, table data
+
+
+
+<table>
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark zuku</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+collapse        	table {
+           		 border-collapse: collapse;
+        		}
+
+
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-4 Html form input label fieldset legend textarea submit
+
+
+
+
+    <form action="">
+        <input type="text" placeholder="Enter your name" id="">
+    </form>
+
+
+
+
+placeholder			<input type="text" placeholder="Enter your name" id="">
+
+
+
+
+        <fieldset>
+            <legend>Select your pitha</legend>
+        </fieldset>
+
+
+fieldset
+        <fieldset>
+            <legend>Select your pitha</legend>
+        </fieldset>
+
+
+legend
+
+        <fieldset>
+            <legend>Select your pitha</legend>
+        </fieldset>
+
+
+
+
+lable	***5m31s
+
+        <fieldset>
+            <legend>Select your pitha</legend>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="chitoy" id="chitoy">chitoy</label>
+            </p>
+        </fieldset>
+
+
+
+
+radio
+
+        <fieldset>
+            <legend>Select your pitha</legend>
+            <p>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">vapa</label>
+            </p>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">chitoy</label>
+            </p>
+            <p>
+                <label for="narkel">
+                    <input type="radio" name="pitha" id="narkel">narkel</label>
+            </p>
+        </fieldset>
+
+
+
+checkbox
+        <fieldset>
+            <legend>select your vorta</legend>
+            <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa"></label>sorisa</p>
+            <p><label for="shutki"><input type="checkbox" name="vorta" id="shutki"></label>shutki</p>
+            <p><label for="begun"><input type="checkbox" name="vorta" id="begun"></label>begun</p>
+        </fieldset>
+		
+
+
+
+
+
+
+textarea
+				<textarea name="Instruction" id="" cols="30" rows="10"></textarea>
+
+
+submit
+				<button type="submit">submit</button>
+
+reset
+				<button type="reset">reset</button>
+
+
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-5 Simple navbar and internal navigation among files
+
+
+open special file		<a href="form.html">form</a>
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-6 Add nested menu dropdown option on mouseover
+
+
+
+nav > ul				
+					sudhu child  not childs child
+
+					nav > ul{
+					    display: flex;
+					}
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-7 (advanced) Explore SVG, create a svg smiley face
+
+
+
+
+****#######
+
+    <svg viewBox="0 0 200 200" style="border: 1px solid red;" weight="400" height="400">
+        <rect x="50" y="50" width="100" height="100" fill="yellow"></rect>
+
+    </svg>
+
+***########
+
+
+    <svg viewBox="0 0 200 200" style="border: 1px solid red;" weight="400" height="400">
+        <circle cx="100" cy="100" r="100"></circle>
+
+    </svg>
+
+***########
+
+
+
+google>>
+
+svg
+d3
+
+
+
+
+
+if need see video
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-8 All html tags, everything you need to know about html
+
+
+
+all html tag		google>>   tutorialRepublic
+
+svg vs canvus		google
+
+comment
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-9 All html attributes Title attribute, comments, alt, data
+
+
+
+google >>> all attributes >>> w3 school
+
+
+
+
+.end---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+			module: 6-10 HTML5 Module Summary
+
+
+
+over view
+
+
+
+.end---------------------------------------------------------------------------------
